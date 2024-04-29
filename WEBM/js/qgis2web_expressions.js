@@ -754,3 +754,17 @@ function fnc__specialcol_(values, context) {
 function fnc_project_color(values, context) {
     return false;
 };
+
+
+
+function exp_label_L5_19_eval_expression(context) {
+    // name_en
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return feature.properties['name_en'] ;
+    } else {
+        return feature['name_en'] ;
+    }
+}
